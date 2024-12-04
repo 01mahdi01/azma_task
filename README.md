@@ -38,3 +38,8 @@ docker compose -f docker-compose.dev.yml up -d
 ```
 python manage.py runserver
 ```
+8- run the zmq_worker
+export python path to the project root
+```
+python -m azma_task.server.zmq_worker
+```
